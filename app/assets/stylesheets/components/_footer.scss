@@ -1,0 +1,29 @@
+.footer {
+  background-color: #F4F4F4;
+
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+li {
+  list-style: none;
+  padding-right: 1.25rem;
+  padding-top: 1rem;
+  color: grey;
+}
+
+
+@media screen and (max-width: 575px) {
+  .no-display {
+    display: none;
+  }
+
+  li {
+    padding-right: 5px;
+    padding-top: 5px;
+  }
+}

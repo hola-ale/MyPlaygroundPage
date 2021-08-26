@@ -1,0 +1,25 @@
+.banner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.banner .btn {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
